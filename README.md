@@ -1,10 +1,14 @@
-# Kernel Project
+# Cross-Sectional Return Prediction and Kernel-Based Portfolio Allocation
+
+University project, May 2026 · Francesco Florio and Salvatore Messina
+
+[Final report](7%20Main/main.pdf) · [Original repository](https://github.com/SalvatoreMessina11/Kernel-Project)
 
 Cross-sectional return prediction for global listed banks using rolling kernel models and constrained regularized mean-variance portfolios.
 
 ## Overview
 
-The project forecasts next-day USD log returns for a diversified universe of global banks. Kernel forecasts are used directly as expected returns in a constrained mean-variance allocation:
+The project forecasts next-day USD log returns for a universe of 25 global banks. Kernel forecasts are used directly as expected returns in a constrained mean-variance allocation:
 
 ```text
 maximize_w  mu_hat' w - (A / 2) w' (Sigma_hat + gamma I) w
